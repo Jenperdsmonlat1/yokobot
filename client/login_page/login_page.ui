@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">*{
+	background: qlineargradient(spread:pad, x1:0, y1:0.301, x2:0.825, y2:0.733136, stop:0 rgba(69, 104, 220, 255), stop:1 rgba(176, 106, 179, 255));
+	border-radius: 10px;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QFrame" name="titleBar">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>35</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">*{
+	background: none;
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="leftMargin">
+          <number>2</number>
+         </property>
+         <property name="topMargin">
+          <number>2</number>
+         </property>
+         <property name="rightMargin">
+          <number>2</number>
+         </property>
+         <property name="bottomMargin">
+          <number>2</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="titleFrame">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <property name="leftMargin">
+             <number>2</number>
+            </property>
+            <property name="topMargin">
+             <number>2</number>
+            </property>
+            <property name="rightMargin">
+             <number>2</number>
+            </property>
+            <property name="bottomMargin">
+             <number>2</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="title">
+              <property name="styleSheet">
+               <string notr="true">*{
+	color: whitesmoke;
+	font-size: 18px;
+	font-family: Noto Sans;
+	background: none;
+}</string>
+              </property>
+              <property name="text">
+               <string>Connexion à votre compte.</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frameButton">
+           <property name="maximumSize">
+            <size>
+             <width>90</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <property name="leftMargin">
+             <number>6</number>
+            </property>
+            <property name="topMargin">
+             <number>6</number>
+            </property>
+            <property name="rightMargin">
+             <number>6</number>
+            </property>
+            <property name="bottomMargin">
+             <number>6</number>
+            </property>
+            <item>
+             <widget class="QPushButton" name="minimiseButton">
+              <property name="minimumSize">
+               <size>
+                <width>15</width>
+                <height>15</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>15</width>
+                <height>15</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">*{
+	background: rgb(84, 255, 117);
+	border: none;
+	border-radius: 7px;
+}</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="maximiseButton">
+              <property name="minimumSize">
+               <size>
+                <width>15</width>
+                <height>15</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>15</width>
+                <height>15</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">*{
+	background: rgb(255, 152, 55);
+	border: none;
+	border-radius: 7px;
+}</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="exitButton">
+              <property name="minimumSize">
+               <size>
+                <width>15</width>
+                <height>15</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>15</width>
+                <height>15</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">*{
+	background: rgb(255, 55, 55);
+	border: none;
+	border-radius: 7px;
+}</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="contenu">
+        <property name="styleSheet">
+         <string notr="true">*{
+	background: none;
+}
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <property name="leftMargin">
+          <number>200</number>
+         </property>
+         <property name="topMargin">
+          <number>20</number>
+         </property>
+         <property name="rightMargin">
+          <number>200</number>
+         </property>
+         <property name="bottomMargin">
+          <number>20</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="formulaire">
+           <property name="minimumSize">
+            <size>
+             <width>375</width>
+             <height>460</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>375</width>
+             <height>440</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">*{
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 20px;
+}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <widget class="QLineEdit" name="password">
+            <property name="geometry">
+             <rect>
+              <x>62</x>
+              <y>266</y>
+              <width>250</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">*{
+	background: rgba(255, 255, 255, 0.0);
+	color: white;
+	border-radius: 1px;
+	border: 2px solid;
+	border-bottom-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0.801, y2:1, stop:0 rgba(69, 104, 220, 255), stop:1 rgba(176, 106, 179, 255));
+	border-top-color: rgba(255, 255, 255, 0.0);
+	border-right-color: rgba(255, 255, 255, 0.0);
+	border-left-color: rgba(255, 255, 255, 0.0);
+}</string>
+            </property>
+            <property name="placeholderText">
+             <string>Votre mot de passe</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="username">
+            <property name="geometry">
+             <rect>
+              <x>62</x>
+              <y>175</y>
+              <width>250</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">*{
+	background: rgba(255, 255, 255, 0.0);
+	color: white;
+	border-radius: 1px;
+	border: 2px solid;
+	border-bottom-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0.801, y2:1, stop:0 rgba(69, 104, 220, 255), stop:1 rgba(176, 106, 179, 255));
+	border-top-color: rgba(255, 255, 255, 0.0);
+	border-right-color: rgba(255, 255, 255, 0.0);
+	border-left-color: rgba(255, 255, 255, 0.0);
+}</string>
+            </property>
+            <property name="placeholderText">
+             <string>Votre nom d'utilisateur</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="validerButton">
+            <property name="geometry">
+             <rect>
+              <x>87</x>
+              <y>350</y>
+              <width>200</width>
+              <height>40</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">*{
+	background: qlineargradient(spread:pad, x1:0, y1:1, x2:0.801, y2:1, stop:0 rgba(69, 104, 220, 255), stop:1 rgba(176, 106, 179, 255));
+	border-radius: 20px;
+	color: white;
+	font-family: Noto Sans;
+}</string>
+            </property>
+            <property name="text">
+             <string>Valider.</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="title_formulaire">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>74</y>
+              <width>165</width>
+              <height>32</height>
+             </rect>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>175</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">*{
+	color: white;
+	font-size: 23px;
+	font-family: Noto Sans;
+	background: none;
+}</string>
+            </property>
+            <property name="text">
+             <string>Ah te revoilà !!!!</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton">
+            <property name="geometry">
+             <rect>
+              <x>87</x>
+              <y>420</y>
+              <width>200</width>
+              <height>24</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">*{
+	background: none;
+	font-family: Noto Sans;
+	font-size: 10px;
+	color: white;
+}</string>
+            </property>
+            <property name="text">
+             <string>Vous n'avez pas de compte créez-en un.</string>
+            </property>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="footer">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>35</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">*{
+	background: none;
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QFrame" name="Frame">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="credit">
+           <property name="maximumSize">
+            <size>
+             <width>120</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">*{
+	color: whitesmoke;
+	font-size: 12px;
+	font-family: Noto Sans;
+}</string>
+           </property>
+           <property name="text">
+            <string>Auteur: jesuisroot123</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+     <zorder>footer</zorder>
+     <zorder>titleBar</zorder>
+     <zorder>contenu</zorder>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icons/info-circle-solid-36.png</file>
+  </qresource>
+</RCC>

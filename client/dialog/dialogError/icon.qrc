@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>error-solid-36.png</file>
+  </qresource>
+</RCC>

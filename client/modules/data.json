@@ -1,0 +1,64 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hello", "La forme?", "yo", "Salut", "ça roule?", "wesh", "bonjoir", "bonjour", "hola", "salem"],
+     "responses": ["Salut à toi!", "Hello", "Comment vas tu?", "Salutations!", "Enchanté", "wesh ça va la mif et tout"],
+     },
+    {"tag": "age",
+     "patterns": ["Quel âge as-tu?", "C'est quand ton anniversaire?", "Quand es-tu né?", "t'es née quand ?",
+                  "t'es de quelle année ?"],
+     "responses": ["J'ai 25 ans", "Je suis né en 1996", "Ma date d'anniversaire est le 3 juillet et je suis né en 1996",
+                   "03/07/1996"]
+     },
+    {"tag": "date",
+     "patterns": ["Que fais-tu ce week-end?",
+                  "Tu veux qu'on fasse un truc ensemble?", "Quels sont tes plans pour cette semaine", "tu fais quoi ?"],
+     "responses": ["Je suis libre toute la semaine", "Je n'ai rien de prévu", "Je ne suis pas occupé",
+                   "Je ne fais rien"]
+     },
+    {"tag": "name",
+     "patterns": ["Quel est ton prénom?", "Comment tu t'appelles?", "Qui es-tu?"],
+     "responses": ["Mon prénom est Yoko", "Je suis Yoko", "Yoko"]
+     },
+    {"tag": "jokes",
+     "patterns": ["Racontes-moi une blague", "raconte moi une blague", "raconte une blague", "dis une blague",
+                  "dis-moi une balgue", "dis moi une blague"],
+     "responses": [
+         "Quelle mamie fait peur aux voleurs ? Mamie Traillette.",
+         "J'ai une blague sur les magasins. Mais elle a pas supermarché",
+         "Pourquoi est-ce c'est difficile de conduire dans le Nord ? Parce que les voitures arrêtent PAS DE CALER.",
+         "Comment est-ce que la chouette sait que son mari fait la gueule ? Parce qu’HIBOUDE",
+         "Pourquoi est-ce qu'on dit que les bretons sont tous frères et sœurs ? Parce qu’ils n’ont Quimper.",
+         "Pourquoi est-ce qu'on met tous les crocos en prison ? Parce que les crocos dealent.",
+         "Comment fait-on pour allumer un barbecue breton ? On utilise des breizh.",
+         "Pourquoi dit-on que les poissons travaillent illégalement ? Parce qu’ils n’ont pas de FISH de paie.",
+         "Quel est le bar préféré des espagnols ? Le Bar-celone",
+         "Pourquoi est-ce que les mexicains mangent-ils aux toilettes ? Parce qu’ils aiment manger épicé",
+         "Que faisaient les dinosaures quand ils n'arrivaient pas à se décider ? Des tirageosaures",
+         "Qu'est-ce qu'un tennisman adore faire ? Rendre des services",
+         "Pourquoi est-ce que les vêtements sont toujours fatigués quand ils sortent de la machine ? Parce qu’ils "
+         "sont léssivés",
+         "Pourquoi est-ce que les livres ont-ils toujours chaud ? Parce qu’ils ont une couverture",
+         "Où est-ce que les super héros vont-ils faire leurs courses ? Au supermarché",
+         "Que se passe-t-il quand 2 poissons s'énervent ? Le thon monte",
+         " Quel fruit est assez fort pour couper des arbres ? Le ci-tron",
+         "Quel est le jambon que tout le monde déteste ? Le sale ami",
+         "Que fait un cendrier devant un ascenseur ? Il veut des cendres",
+         " Que dit une imprimante dans l'eau ? J’ai papier",
+         "Que dit une noisette quand elle tombe à l'eau ? je me noix",
+         "Quel est l'aliment le plus hilarant ? Le riz",
+         " Pourquoi est-ce que les moutons aiment le chewing-gum ? Parce que c’est bon pour la laine.",
+         "Quel est le sport préféré des insectes ? Le criquet",
+         "Quel est le café préféré des espagnols ? Le café Olé",
+         "Que fait Platon quand ça le démange ? Il Socrate",
+         "Pourquoi est ce que Hulk a un beau jardin ? Parce qu’il a la main verte"
+     ]
+     },
+    {"tag": "insulte",
+     "patterns": ["tg", "TG", "Tg", "ta gueule", "ferme ta gueule"],
+     "responses": ["Ne viens pas me parler si c'est pour me dire ça."]
+     },
+    {"tag": "goodbye",
+     "patterns": ["au revoir", "bye", "see ya", "adios", "cya"],
+     "responses": ["C'était sympa de te parler", "à plus tard", "On se reparle très vite!"]
+     }
+]}
